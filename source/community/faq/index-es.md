@@ -17,52 +17,52 @@ IIIF permite:
     * Entrega zoom y pan de imágenes rápida y enriquecida.
     * Manipulation of size, scale, region of interest, rotation, quality and format.
     * Anotación: IIIF es compatible nativamente con el [Modelo de Datos Anotación Web][wadm] del grupo de trabajo de anotación de W3C, que soporta anotar contenido en la Web. Los usuarios pueden comentar en, transcribir, y dibujar sobre, recursos basados en imágenes empleando la arquitectura inherente de la Web.
-    * Assemble and use image-based resources from across the Web, regardless of source. Compare pages, build an exhibit, or view a virtual collection of items served from different sites.
-    * Cite and Share - IIIF APIs provide motivation for persistence, providing portable views of images and/or regions of images. Cite an image with confidence in stable image URIs, or share it for reference by others--or yourself in a different environment.
- * Support for institutional authentication
-    * IIIF is designed to support access control and can leverage existing SSO systems, via the [IIIF Authentication API][auth]
- * System flexibility
-   * Use any IIIF-compatible software for viewing, comparing and manipulating images, regardless of the back-end server. Swap parts of the stack at any time, or run multiple components in parallel at once.
- * Easy data transfer and sharing
-    * IIIF is standards-based, uses RESTful API construction, JSON-LD, and follows Web patterns, simplifying processes for data migration and sharing
- * Avoidance of vendor lock-in, complicated migrations, and system overhauls
-    * IIIF provides the ability to separate image delivery user interfaces from back end data stores, allowing repositories the ability to update image servers and databases without changing front end delivery, or vice versa, avoiding the need to re-architect the entire stack. With an active and growing community of organizations developing and supporting IIIF-compatible technologies, there are plenty of software options to choose from.
- * Reduction of long term total costs
-    * A rich ecosystem of interoperable software, including many high quality, open source options, keeps licensing and operational costs low and predictable over time.
- * Combining content from across repositories
-    * Unify presentation of content from many different stores (within or outside your institution) without complex or expensive system or data migrations. Bring together content from your institutional DAM, library digital collections, and external sources.
- * Publish once, re-use often
-    * Deliver images from your own site for manifold uses; host a single copy and embed in other sites. No need to transfer images to others for them to locally load for one off analysis or republishing.  
- * A thriving global network
-    * Join a global network of image suppliers making content available in a common , interoperable framework. Tap a growing suite of software tools and platforms. Maximize the use of your images on the Web. Unlock new potential with interoperability.
+    * Reunir y utilizar recursos basados en imagen de la Web, con independencia de la fuente. Compare páginas, construya una exposición, o visualice una colección virtual de elementos servidos desde diferentes sitios.
+    * Citar y Compartir: Las APIs de IIIF motivan la persistencia, proporcionando vistas portables de imágenes y/o regiones de imágenes. Cite una imagen con confianza en URIs de imagen estables, o compártala para que la referencien otros (o usted mismo en un entorno distinto).
+ * Soporte de autenticación institucional
+    * IIIF está diseñado para soportar control de acceso y puede aprovechar los sistemas SSO (single sign on, inicio de sesión único) existentes, a través de la [API de Autenticación de IIIF][auth]
+ * Flexibilidad del sistema
+   * Use cualquier software compatible con IIIF para visualizar, comparar, y manipular imágenes, con independencia del servidor backend. Intercambie partes de la pila en cualquier momento, o ejecute múltiples componentes a la vez, en paralelo.
+ * Facilidad de transferir y compartir datos
+    * IIIF está basado en estándares, emplea construcción RESTful de las APIs, JSON-LD, y cumple los patrones Web, simplificando los procesos de migrar y compartir datos.
+ * Se evitan la dependencia de un proveedor, las migraciones complicadas, y los repasos generales del sistema
+    * IIIF proporciona la capacidad de separar las interfaces de usuario de entrega de imágenes de los almacenes backend, lo cual permite que los repositorios actualicen los servidores de imagen y las bases de datos sin alterar la entrega frontend o, vice versa, evita el rediseño de la arquitectura de toda la pila. Con una comunidad activa y creciente de organizaciones que desarrollan y soportan las tecnologías compatibles con IIIF, existen numerosas opciones de software para elegir.
+ * Reducción de los costos totales a largo plazo
+    * Un rico ecosistema de software interoperable, que incluye muchas opciones de alta calidad y código abierto, mantiene los costos de operación y de licencias bajos y predecibles a largo plazo.
+ * Se combinan contenidos de diversos repositorios
+    * Unifique la presentación de contenidos desde muchos almacenes distintos (dentro o fuera de su institución) sin migraciones de sistema o datos complejas o costosas. Combine contenidos de su DAM (digital asset management, sistema de gestión de activos digitales) institucional, colecciones de bibliotecas digitales, y recursos externos.
+ * Publique una vez, reutilice muchas veces
+    * Entregue imágenes desde su propio sitio para usos variados; aloje una sola copia e incruste en otros sitios. No es preciso transferir las imágenes a otros para que estos las carguen localmente con fines de análisis o republicación.
+ * Una próspera red global
+    * Únase a una red global de proveedores de imágenes que presentan el contenido en un marco común, interoperable. Aproveche una suite en crecimiento de herramientas de software y plataformas. Maximice la utilización de sus imágenes en la Web. Descubra nuevo potencial con la interoperabilidad.
 
-## Who is part of the IIIF community?
+## ¿Quién es parte de la comunidad IIIF?
 
-* The IIIF Community encompasses a large and growing group of interested and active individuals and organizations dedicated to leading and sustaining the IIIF. As a community-driven initiative, IIIF thrives on active discussion, input, and feedback from a wide array of diverse individuals from libraries, museums, cultural heritage institutions, software firms, and other organizations working with digital images and audio/visual materials. We welcome any organization or individual interested in adopting the IIIF, developing software to support it, or giving feedback on the effort to get involved. Participants in all IIIF activities are expected to follow the IIIF [code of conduct][conduct]. The [list of known IIIF community participants][community-list] is always growing. Additionally, the IIIF Consortium (IIIF-C) provides sustainability and steering for the initiative. For more information about the IIIF-C, see the [Consortium page][iiif-c] and [IIIF-C FAQ][iiifc-faq].
+* La Comunidad IIIF abarca un grupo grande, y en crecimiento, de individuos y organizaciones interesados y activos dedicados a liderar y sostener IIIF. Como iniciativa impulsada por la comunidad, IIIF se beneficia de la discusión activa, los aportes, y los comentarios de numerosos y diversos individuos pertenecientes a bibliotecas, museos, instituciones de patrimonio cultural, firmas de software, y otras organizaciones que trabajan con imágenes digitales y materiales audiovisuales. Agradecemos a cualquier organización o individuo interesado en adoptar IIIF, desarrollar software para soportarlo, o comentar sobre el esfuerzo para participar. Los participantes de toda actividad de IIIF deben cumplir el [código de conducta][conduct] de IIIF. La [lista de participantes conocidos de la comunidad IIIF][community-list] crece constantemente. Adicionalmente, el Consorcio IIIF (IIIF Consortium, IIIF-C) aporta sostenibilidad y dirección a la iniciativa. Para mayor información sobre IIIF-C, vea la [página del Consorcio][iiif-c] y las [Preguntas Frecuentes de IIIF-C][iiifc-faq].
 
-## How can I participate in the IIIF Community?
+## ¿Cómo puedo participar en la Comunidad IIIF?
 
-* Please see the [IIIF Community page][community-list] for details on how to get involved.
+* Por favor, vea la [página de la Comunidad IIIF][community-list] para los detalles sobre como participar.
 
-## What are the current IIIF specifications?
+## ¿Cuáles son las especificaciones actuales de IIIF?
 
- * [Image API][image]
- * [Presentation API][presentation]
- * [Content Search API][search]
- * [Authentication API][auth]
- * In Progress: [IIIF for Audio/Visual materials][av]
+ * [API de Imagen][image]
+ * [API de Presentación][presentation]
+ * [API de Búsqueda de Contenido][search]
+ * [API de Autenticación][auth]
+ * En Progreso: [IIIF para Materiales Audiovisuales][av]
 
-##  How do the IIIF APIs relate to my current, internal interoperability layer?
+##  ¿Cómo se relacionan las APIs de IIIF con mi capa de interoperabilidad interna actual?
 
-* Some institutions implement IIIF using shims, or translation layers, on top of their existing interoperability layer.  In other cases, IIIF is implemented without dependencies on existing services. IIIF provides for different levels of compliance, beginning with the IIIF Image API. For more information, please see [IIIF technical details][tech-details].  
+* Algunas instituciones implementan IIIF usando shims, o capas de traducción, encima de sus capas de interoperabilidad existentes. En otros casos, IIIF se implementa sin depender de los servicios existentes. IIIF permite distintos niveles de cumplimiento, empezando por la API de Imagen de IIIF. Para más información, por favor, vea los [detalles técnicos de IIIF][tech-details].  
 
-## Does IIIF replace or integrate with my Digital Asset Management (DAM) software?
+## IIIF reemplaza o se integra a mi software de Gestión de Activos Digitales (Digital Asset Management, DAM)?
 
-* IIIF is a method for delivery of assets, not storage. Integration with your DAM software is dependent on your DAM provider. The IIIF community encourages DAM software providers to incorporate native IIIF support into their products.
+* IIIF es un método de entrega de activos, no de almacenamiento. La integración a su software DAM depende de su proveedor de DAM. La comunidad IIIF alienta a los proveedores de software DAM a incorporar soporte nativo de IIIF en sus productos.
 
-## Does the IIIF Consortium serve as an aggregator of IIIF content?
+## ¿El Consorcio IIIF sirve como agregador de contenido IIIF?
 
-* No, the IIIF Consortium and wider community does not have a single aggregation platform for content.  IIIF defines APIs that allow for interoperability between digital image repositories, including aggregators.  Because the IIIF APIs are well documented and understood, use of IIIF can enable aggregators such as Artstor, DPLA, and Europeana to access your images more easily.  
+* No, el Consorcio IIIF y la comunidad no tienen una plataforma de agregación única para el contenido. IIIF define APIs que posibilitan la interoperabilidad entre repositorios de imágenes digitales, incluyendo agregadores. Como las APIs de IIIF están bien documentadas y comprendidas, el uso de IIIF puede facilitar el acceso a sus imágenes de agregadores como Artstor, DPLA, y Europeana.
 
 [search]: {{ page.webprefix }}/api/search/
 [presentation]: {{ page.webprefix }}/api/presentation/
